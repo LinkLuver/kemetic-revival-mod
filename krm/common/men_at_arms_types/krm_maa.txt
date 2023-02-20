@@ -1,0 +1,29 @@
+﻿#Taken directly from Dead Religions Revived by Chalk, hope this is ok
+
+cultural_maa_extra_ai_score = 25
+medjay = {
+	type = light_cavalry
+	
+	damage = 35
+	toughness = 30
+	pursuit = 50
+	screen = 10
+	
+	terrain_bonus = {
+		desert = { damage = 25 pursuit = 20 }
+	}
+	
+	counters = {
+		skirmishers = 2
+		light_cavalry = 1
+	}
+	
+	buy_cost = { gold = medjay_recruitment_cost }
+	low_maintenance_cost = { gold = medjay_low_maint_cost }
+	high_maintenance_cost = { gold = medjay_high_maint_cost }
+	
+	stack = 100
+	ai_quality = { value = cultural_ai_weight_medjay }
+	icon = light_cavalry
+	fallback_in_hired_troops_if_unlocked = yes
+}

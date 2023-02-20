@@ -1,0 +1,42 @@
+﻿name_list_kemetic = {
+
+	cadet_dynasty_names = {
+		"Amenemhat"
+		"Herihor"
+		"Khonsu"
+		"Montuhotep"
+		"Nebpehtire"
+		"Pepi"
+		"Sekhemkare"
+	}
+
+	dynasty_names = {
+		"Akhenaten"
+		"Djoser"
+		"Hatshepsut"
+		"Kheperkare"
+		"Mentuhotep"
+		"Neferkare"
+		"Nefertiti"
+		"Ptolemy"
+	}
+
+	male_names = {
+		Abewyetey Abrye Ademeqe Adeqenk Adeqetli Adeqtey Adihli Adilememe Axebixetey Axetkkid Axeytntke Axpeye Axedxetiwl Akinidd
+		Amereye Ametel Amewil Amnixble Amnitnide Ansyi Apesilikr Apeteye Apile Apmle Aqemleye Aqykr Arereteli Arikxrer Aritenyesbehe
+		Arkxtni Arlememe Brtrye Dbeti Ddekr Dewitr Dedewiye Dekeli Dekrer Derekid Dmkte Etretey Xbresible Xlem Xrmdeye Xrnxble Xwili
+		Xwitrer Hleme Htpiye Kebekenye Kelehekeniwl Kelqeli Keseteye Lhleye Ltlememe Mdliye Menetel Meqelli Meqenli Mesnli Meslxble
+		Meteyel Metbr Mhewitr Mhes Mhetkide Mhidd
+	}
+
+	female_names = {
+		Aberetehte Abesye Abesnye Abettelite Abkye Adeliye Adere Ademeye Adeye Adexiye Axdes Axdeye Axeyeteliye Axmnkrer Ahpesli Akesye Akilible Akpye Ametelis
+		Ameteye Ametsl Amnelixe Amnxedele Amnixlik Amnili Amnipiteke Amnirens Amnisxete Amniteres Amye Apetekdiyi Apetikde Apilye Apteye Aqeny Aqmks Arbrye Aredetni
+		Arekdxete Arekete Arekikli Areqebr Aretnye Arkiye Btekenye Dbetelite Ddekey Delikrer Derepesi Dewekdil Dehtelite Deke Deketen Dekikdis Dimenetil Dlisye Dstkel
+		Emehide Eritr Etenrer Xdekmli Xdxdiye Xmleye Xpeye Xr Xresye Xrimli Xrmlemks Xseteli Heleyi Hetide Hiyeteli Hlitrer Hmye Hpesli Hpeye Hrkebe Hrklbl Ibr Ilhmli
+		Ilin Kdeyen Kdeyet Kdib Kdibye Kdil Kdimleye Kdimnli Kdimnle Kdipeleyi Kdiqebts Kdiskeli Kditede Kditrye Kdiyo Kelekele Kelhe Kepen Kesye Kidtelye Kpenke
+		Ktpenye Lhidmni Lptenke Ltmks Mdeye Meqen Ntekdi Meteye 
+	}
+	
+	founder_named_dynasties = yes
+}

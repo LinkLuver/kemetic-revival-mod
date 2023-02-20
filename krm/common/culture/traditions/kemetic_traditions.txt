@@ -1,0 +1,122 @@
+﻿#Tradition of Nile Commerce
+tradition_nile_commerce = {
+	category = regional
+
+	layers = {
+		0 = steward
+		1 = mena
+		4 = ship.dds
+	}
+
+	can_pick = {
+		custom_description = {
+			text = culture_on_coast_desc
+			any_culture_county = {
+				any_county_province = {
+					is_coastal = yes
+				}
+			}
+		}
+	}
+
+	parameters = {
+		naval_speed_mult = 0.2
+		next_level_trade_ports = yes
+		maritime_mercantilism_coastal_holdings = yes
+	}
+
+	character_modifier = {
+		diplomacy = 1
+	}
+
+	county_modifier = {
+		build_speed = 0.2
+		floodplains_development_growth_factor = 0.3
+		floodplains_construction_gold_cost = -0.2
+		floodplains_levy_size = 0.1
+	}
+
+	province_modifier = {
+		desert_construction_gold_cost = -0.15
+		drylands_construction_gold_cost = -0.15
+		desert_holding_construction_gold_cost = -0.15
+		drylands_holding_construction_gold_cost = -0.15
+	}
+
+	}
+
+
+#Tradition of Pharoanic Legacy
+tradition_pharoanic_legacy = {
+	category = regional
+	
+	layers = {
+		0 = steward
+		1 = mena
+		4 = fight.dds
+	}
+	
+	can_pick = {
+		culture = kemetic
+	}
+	
+	parameters = {
+		additional_piety_per_holy_site = 0.2
+		build_bonuses_on_temple_construction = yes
+		more_levies_on_improving_holdings = yes
+	}
+	
+	character_modifier = {
+		monthly_piety = 0.25
+	}
+	
+	county_modifier = {
+			monthly_county_control_change_add = 0.5
+	}
+	
+	province_modifier = {
+		fort_level = 2
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+	}
+}
+
+#Tradition of Papyrus Records
+tradition_papyrus_records = {
+	category = regional
+	
+	layers = {
+		0 = learning
+		1 = mena
+		4 = quill.dds
+	}
+	
+	can_pick = {
+		culture = kemetic }
+	
+	parameters = {
+		techpoints_add = 0.2
+		fascination_progress_add = 0.2
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.05
+	}
+	
+	character_modifier = {
+		learning = 1
+	}
+}

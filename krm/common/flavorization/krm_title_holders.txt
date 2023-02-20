@@ -1,0 +1,91 @@
+﻿#Kemetic Title Holder Names
+pharaoh = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 301
+	religions = { kemetic_religion atenic_religion }
+	top_liege = no
+}
+pharaohess = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 301
+	religions = { kemetic_religion atenic_religion }
+	top_liege = no
+}
+nesu = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 301
+	religions = { kemetic_religion atenic_religion }
+	top_liege = no
+}
+nesu_t = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 301
+	religions = { kemetic_religion atenic_religion }
+	top_liege = no
+}
+heqa_khasut = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 301
+	religions = { kemetic_religion atenic_religion }
+	top_liege = no
+}
+heqa_khasut = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 301
+	religions = { kemetic_religion atenic_religion }
+	top_liege = no
+}
+nomarch = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 301
+	religions = { kemetic_religion atenic_religion }
+	top_liege = no
+}
+nomarchess = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 301
+	religions = { kemetic_religion atenic_religion }
+	top_liege = no
+}
+neferet = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 301
+	religions = { kemetic_religion atenic_religion }
+	top_liege = no
+}
+neferet = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 301
+	religions = { kemetic_religion atenic_religion }
+	top_liege = no
+}
